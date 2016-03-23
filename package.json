@@ -1,0 +1,30 @@
+{
+  "name": "multi-page-router",
+  "version": "0.1.0",
+  "description": "Configure multi-page-router to call functions on page load based on the current path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlopez4/multi-page-router.git"
+  },
+  "keywords": [
+    "routing",
+    "traditional",
+    "app",
+    "non",
+    "spa",
+    "non",
+    "single",
+    "page",
+    "app"
+  ],
+  "author": "Ricardo Lopez <rlopez@sporks.io>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rlopez4/multi-page-router/issues"
+  },
+  "homepage": "https://github.com/rlopez4/multi-page-router#readme"
+}
