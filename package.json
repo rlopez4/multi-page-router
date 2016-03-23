@@ -4,7 +4,8 @@
   "description": "Configure multi-page-router to call functions on page load based on the current path.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js --standalone multi-page-router -o multi-page-router.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/rlopez4/multi-page-router/issues"
   },
-  "homepage": "https://github.com/rlopez4/multi-page-router#readme"
+  "homepage": "https://github.com/rlopez4/multi-page-router#readme",
+  "dependencies": {
+    "path-to-regexp": "1.2.1"
+  },
+  "devDependencies": {
+    "browserify": "13.0.0"
+  }
 }
